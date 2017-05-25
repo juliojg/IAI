@@ -1,0 +1,535 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Disputa_partidos_local_en -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Disputa_partidos_local_en">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Entrena_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Entrena_a">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tecnico"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Entrenan_en -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Entrenan_en">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Campo_de_entrenamiento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Es_presidida_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Es_presidida_por">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Preside"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Esta_formado -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Esta_formado">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Forman"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Forman -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Forman">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Preside -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Preside">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Directivo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Viste -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Viste">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Indumentaria"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#debuto_en -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#debuto_en">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Apertura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Apertura">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Apodo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Apodo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Año_debut -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Año_debut">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Capacidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Capacidad">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Colores -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Colores">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Camiseta"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Medias"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Pantalon"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Rodilleras"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estatura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estatura">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Goles -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Goles">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Marca -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Marca">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Indumentaria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Nombre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Nombre">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Nombre_completo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Nombre_completo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Partidos_internacionales -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Partidos_internacionales">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Posicion_ultima_liga -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Posicion_ultima_liga">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Suplente -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Suplente">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Titular"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tipo_de_piso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tipo_de_piso">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Campo_de_entrenamiento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Titular -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Titular">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Titulo_ganados -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Titulo_ganados">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Ubicacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Ubicacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Campo_de_entrenamiento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Camiseta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Camiseta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Uniforme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Campo_de_entrenamiento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Campo_de_entrenamiento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Instalacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Directivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Directivo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Entrenamiento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Entrenamiento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Indumentaria"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Uniforme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Volley"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Instalacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Indumentaria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Indumentaria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Volley"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Instalacion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Instalacion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Volley"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Medias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Medias">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Uniforme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Pantalon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Pantalon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Uniforme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Persona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Persona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Volley"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Primera_division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Primera_division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Segunda_division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Rodilleras -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Rodilleras">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Uniforme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Segunda_division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Segunda_division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tecnico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tecnico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Uniforme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Uniforme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Indumentaria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Volley -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Volley"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#PalaTrento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#PalaTrento">
+        <Apertura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</Apertura>
+        <Capacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</Capacidad>
+        <Ubicacion>Trento</Ubicacion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Trentino_Volley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Trentino_Volley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <Entrenan_en rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#PalaTrento"/>
+        <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Posicion_ultima_liga>
+        <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Titulo_ganados>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Wild_Hunt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Wild_Hunt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Posicion_ultima_liga>
+        <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Titulo_ganados>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Directivo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tecnico"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Indumentaria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Instalacion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Persona"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
