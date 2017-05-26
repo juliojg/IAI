@@ -471,12 +471,180 @@
     
 
 
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Club_Ciudad_de_Buenos_Aires -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Club_Ciudad_de_Buenos_Aires">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Posicion_ultima_liga>
+        <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Titulo_ganados>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Club_Deportivo_Morón -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Club_Deportivo_Morón">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Posicion_ultima_liga>
+        <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Titulo_ganados>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Cristian_Perez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Cristian_Perez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tecnico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Gigantes_del_Sur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Gigantes_del_Sur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Posicion_ultima_liga>
+        <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Titulo_ganados>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Guido_Kaczka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Guido_Kaczka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tecnico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Julian_Weich -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Julian_Weich">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Lautaro_Cortez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Lautaro_Cortez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Lomas_Vóley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Lomas_Vóley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Posicion_ultima_liga>
+        <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Titulo_ganados>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Lucas_Lopez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Lucas_Lopez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tecnico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Mariano_Escobar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Mariano_Escobar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#PalaTrento -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#PalaTrento">
         <Apertura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</Apertura>
         <Capacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</Capacidad>
         <Ubicacion>Trento</Ubicacion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Pedro_Molner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Pedro_Molner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Rafael_Gutierrez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Rafael_Gutierrez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Ramiro_Cabral -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Ramiro_Cabral">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tecnico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Ricardo_Fort -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Ricardo_Fort">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tecnico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Santiago_Reinoso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Santiago_Reinoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Sr_Freeman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Sr_Freeman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Directivo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Sr_Geralt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Sr_Geralt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Directivo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Sr_Glados -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Sr_Glados">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Directivo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Sr_Reinhardt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Sr_Reinhardt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Directivo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Sr_Vercetti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Sr_Vercetti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Directivo"/>
     </owl:NamedIndividual>
     
 
@@ -492,12 +660,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Wild_Hunt -->
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Victor_Lopez -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Wild_Hunt">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
-        <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Posicion_ultima_liga>
-        <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Titulo_ganados>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Victor_Lopez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
     </owl:NamedIndividual>
     
 
