@@ -112,8 +112,14 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#debuto_en">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -143,8 +149,14 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Apodo">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -174,10 +186,16 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Colores">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Camiseta"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Medias"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Pantalon"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Rodilleras"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Camiseta"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Medias"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Pantalon"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Rodilleras"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -227,8 +245,14 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Nombre_completo">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Persona"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Persona"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -268,8 +292,14 @@
     <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tipo_de_piso -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tipo_de_piso">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Campo_de_entrenamiento"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Campo_de_entrenamiento"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -298,8 +328,14 @@
     <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Ubicacion -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Ubicacion">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Campo_de_entrenamiento"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Campo_de_entrenamiento"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -475,6 +511,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Club_Ciudad_de_Buenos_Aires">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <Apodo>Los_Porteños</Apodo>
         <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Posicion_ultima_liga>
         <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Titulo_ganados>
     </owl:NamedIndividual>
@@ -485,6 +522,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Club_Deportivo_Morón">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <Apodo>Los_Mormones</Apodo>
         <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Posicion_ultima_liga>
         <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Titulo_ganados>
     </owl:NamedIndividual>
@@ -503,6 +541,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Gigantes_del_Sur">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <Apodo>Los_Goliats</Apodo>
         <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Posicion_ultima_liga>
         <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Titulo_ganados>
     </owl:NamedIndividual>
@@ -521,6 +560,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Julian_Weich">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <Apodo>Juli</Apodo>
+        <Estatura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147</Estatura>
+        <Goles rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Goles>
+        <Nombre>Julian</Nombre>
     </owl:NamedIndividual>
     
 
@@ -529,6 +572,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Lautaro_Cortez">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <Apodo>Lauti</Apodo>
+        <Estatura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">166</Estatura>
+        <Goles rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</Goles>
+        <Nombre>Lautaro</Nombre>
     </owl:NamedIndividual>
     
 
@@ -537,6 +584,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Lomas_Vóley">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
+        <Apodo>Los_Camellos</Apodo>
         <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Posicion_ultima_liga>
         <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Titulo_ganados>
     </owl:NamedIndividual>
@@ -555,6 +603,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Mariano_Escobar">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <Apodo>Marian</Apodo>
+        <Estatura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</Estatura>
+        <Goles rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Goles>
+        <Nombre>Mariano</Nombre>
     </owl:NamedIndividual>
     
 
@@ -573,6 +625,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Pedro_Molner">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <Apodo>Pedri</Apodo>
+        <Estatura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</Estatura>
+        <Goles rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Goles>
+        <Nombre>Pedro</Nombre>
     </owl:NamedIndividual>
     
 
@@ -581,6 +637,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Rafael_Gutierrez">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <Apodo>Rafi</Apodo>
+        <Estatura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</Estatura>
+        <Goles rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Goles>
+        <Nombre>Rafael</Nombre>
     </owl:NamedIndividual>
     
 
@@ -605,6 +665,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Santiago_Reinoso">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <Apodo>Santi</Apodo>
+        <Estatura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</Estatura>
+        <Goles rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</Goles>
+        <Nombre>Santiago</Nombre>
     </owl:NamedIndividual>
     
 
@@ -654,6 +718,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Trentino_Volley">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Equipo"/>
         <Entrenan_en rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#PalaTrento"/>
+        <Apodo>Los_Grandes</Apodo>
         <Posicion_ultima_liga rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Posicion_ultima_liga>
         <Titulo_ganados rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Titulo_ganados>
     </owl:NamedIndividual>
@@ -664,6 +729,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Victor_Lopez">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Jugador"/>
+        <Apodo>Vic</Apodo>
+        <Estatura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</Estatura>
+        <Goles rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Goles>
+        <Nombre>Victor</Nombre>
     </owl:NamedIndividual>
     
 
