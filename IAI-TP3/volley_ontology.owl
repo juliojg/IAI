@@ -507,6 +507,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Campo_Santo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Campo_Santo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Club_Ciudad_de_Buenos_Aires -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Club_Ciudad_de_Buenos_Aires">
@@ -533,6 +541,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Cristian_Perez">
         <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Tecnico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#El_Coliseo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#El_Coliseo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#El_Monumental -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#El_Monumental">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
     </owl:NamedIndividual>
     
 
@@ -599,6 +623,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Maracaná -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Maracaná">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Mariano_Escobar -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Mariano_Escobar">
@@ -614,6 +646,7 @@
     <!-- http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#PalaTrento -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#PalaTrento">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alumno/ontologies/2017/4/untitled-ontology-6#Estadio"/>
         <Apertura rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</Apertura>
         <Capacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</Capacidad>
         <Ubicacion>Trento</Ubicacion>
